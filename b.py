@@ -10,7 +10,7 @@ O(1) - проверяем только один элемент за итерац
 """
 
 
-def remove_zeros(seq: list):
+def remove_zeros(seq):
     seq.sort(key=lambda x: not x)
 
     for i in range(len(seq) - 1, -1, -1):

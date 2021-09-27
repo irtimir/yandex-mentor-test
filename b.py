@@ -16,3 +16,5 @@ def remove_zeros(seq: list):
     for i in range(len(seq) - 1, -1, -1):
         if seq[i] == 0:
             seq.pop()
+        else:
+            break
